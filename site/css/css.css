@@ -25,7 +25,7 @@ nav{
     background-color: black;
 }
 
-content{
+.content{
     grid-column: 1/5;
     grid-row: 5/9;
     background-color: grey;
