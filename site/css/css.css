@@ -45,6 +45,13 @@ button{
     text-decoration: none;
 }
 
+.log_in{
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 a{
     text-decoration: none;
     color: rgb(255, 255 , 255);
