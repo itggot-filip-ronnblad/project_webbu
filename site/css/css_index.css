@@ -31,9 +31,6 @@ p{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.corporated{
-    font-size: 12px;
-}
 
 header{
     grid-column: 1/5;
@@ -118,4 +115,8 @@ footer{
     background-color: rgb(255, 255 , 255)0;
     text-align: center;
     margin-bottom: 50px;
+}
+
+.corporated{
+    font-size: 12px;
 }
