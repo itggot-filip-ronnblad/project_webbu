@@ -11,6 +11,18 @@
     grid-row-gap: 5px;
 }
 
+h1{
+    font-family: 'bree serif', serif;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 header{
     grid-column: 1/5;
     grid-row: 1/3;
@@ -49,4 +61,16 @@ button{
     margin-left: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+footer{
+    grid-column: 1/5;
+    grid-row: 9/12;
+    background-color: rgb(255, 255 , 255)0;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.corporated{
+    font-size: 12px;
 }
