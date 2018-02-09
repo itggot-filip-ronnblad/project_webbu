@@ -85,6 +85,11 @@ nav{
     grid-column-gap: 10px;
 }
 
+nav a button {
+    width: 100%;
+    height: 100%;
+}
+
 .register{
     grid-column: 1/2;
     grid-row: 1/2;
