@@ -109,7 +109,7 @@ nav a button {
     text-decoration: underline;
 }
 
-.name{
+.input_name{
     grid-column: 1/4;
     grid-row: 1/2;
     margin-left: 10%;
