@@ -109,6 +109,16 @@ nav a button {
     text-decoration: underline;
 }
 
+input[type="text"]{
+    width: 100%;
+    height: 100%;
+}
+
+input[type="password"]{
+    width: 100%;
+    height: 100%;
+}
+
 .input_name{
     grid-column: 1/4;
     grid-row: 1/2;
@@ -126,7 +136,34 @@ nav a button {
     margin-left: 4%;
 }
 
-input{
+.password{
+    grid-column: 1/8;
+    grid-row: 3/4;
+    margin-left: 4%;
+}
+
+.checkbox{
+    grid-column: 1/2;
+    grid-row: 4/5;
+    margin-left: 20%;
+    margin-top: 25%;
+}
+
+.conditions{
+    grid-column: 2/8;
+    grid-row: 4/5;
+}
+
+.conditions p{
+    font-size: 13px;
+}
+
+.accept{
+    grid-column: 3/6;
+    grid-row: 5/7;
+}
+
+.accept_button{
     width: 100%;
     height: 100%;
 }
