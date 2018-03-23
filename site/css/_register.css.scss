@@ -1,3 +1,10 @@
+.content_overview{
+    grid-column: 1/5;
+    grid-row: 4/7;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4,1fr);
+}
 
 .terms{
     grid-column: 1/5;
