@@ -1,0 +1,49 @@
+
+.content_log_in{
+    grid-column: 1/5;
+    grid-row: 5/9;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-row-gap: 10px;
+}
+
+input[type="text"]{
+    width: 100%;
+    height: 100%;
+}
+
+input[type="password"]{
+    width: 100%;
+    height: 100%;
+}
+
+.mail{
+    grid-column: 3/6;
+    grid-row: 1/2;
+}
+
+.password{
+    grid-column: 3/6;
+    grid-row: 2/3;
+}
+
+.accept{
+    grid-column: 3/6;
+    grid-row: 3/4;
+    width: 100%;
+    height: 100%;
+}
+
+.no_account{
+    grid-column: 3/6;
+    grid-row: 4/5;
+    font-size: 20px;
+}
+
+.low_register{
+    grid-column: 3/6;
+    grid-row: 5/6;
+    width: 100%;
+    height: 100%;
+}

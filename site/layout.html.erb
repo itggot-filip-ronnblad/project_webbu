@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/css_thanks.css">
+    <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
-    <title>översikt</title>
+    <title>Sportstars</title>
 </head>
 <body>
     <div class="grid">
@@ -14,38 +14,30 @@
             <div class="name">
                 <h1>SportStars</h1>
             </div>
+            
             <a href="login.html"><button class="log_in"> Logga in</button></a>
+
         </header>
         <nav>
             <a href="register.html">
-                <button class="register">Ansök</button>
+                <button class="register">ansök</button>
             </a>
             <a href="#">
-                <button class="find_us">Hitta Oss</button>
+                <button class="find_us">hitta oss</button>
             </a>
             <a href="#">
-                <button class="buy">Köp</button>
+                <button class="buy">köp</button>
             </a>
         </nav>
-
-        <div class="content">
-            <h1 class="thanks_title">Tack!</h1>
-            <p class="thanks_text">Tack för din anmälan till oss, vi hoppas
-                att du når dina mål hos oss. Du har 3 gratis
-                träningspass. Glöm inte att köpa gymkort hos oss
-                för fler.
-            </p>
-            <a class="ok" href="index.html">
-                <button class="ok">Ok</button>
-            </a>
-        </div>
-
-
-
+        
+        <main>
+            <%= yield %>
+        </main>
         <footer>
             <h1>öppetider:</h1>
             <h3>Alla dagar 6-22</h3>
             <p class="corporated">sportstars corporated</p>
         </footer>
+
     </div>
 </body>
